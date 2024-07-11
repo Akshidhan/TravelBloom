@@ -33,6 +33,7 @@ body{
 
 input:focus {
     outline-width: 0;
+    background: rgba(0, 0, 0, 0);
 }
 
 #searchSection{
@@ -42,6 +43,42 @@ input:focus {
 #searchIcon{
     aspect-ratio: 1/1;
     height: 100%;
+}
+
+#searchResult{
+    display: none;
+    position: absolute;
+    width: min(38%, 400px);
+    right: 20px;
+    top: 100px;
+}
+
+.searchCard{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.searchCard img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.searchCard p{
+    margin-inline: 10px;
+}
+
+.searchCard .name{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.searchCard .description{
+    padding: 1px 0 10px 0;
+    font-size: 0.8rem;
+    color: rgba(1, 25, 43, 0.651);
 }
 
 #searchBtn, #clearBtn{
@@ -127,7 +164,7 @@ nav ul li{
 /*Social media icon styling*/
 
 .socialMedia{
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     top: 60vh;
@@ -239,4 +276,3 @@ input[type=submit]{
 label{
     margin-bottom: 1vh;
 }
-
