@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    background: rgba(223,163,149,255);
+}
+
+/*Header styles*/
+
+#logo{
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    width: 50px;
+}
+
+#logoSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBar{
+    width: 100%;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+#searchSection{
+    background-color: white;
+}
+
+#searchIcon{
+    aspect-ratio: 1/1;
+    height: 100%;
+}
+
+#searchBtn, #clearBtn{
+    color: white;
+    background-color: rgb(0, 168, 168);
+    border: 0;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#search{
+    background-color: rgba(132, 72, 72, 0);
+    border: 0;
+}
+
+#searchSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 20px;
+    width: min(50%, 300px);
+}
+
+#searchSection input{
+    border: 0;
+}
+
+#logoText{
+    color: aliceblue;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(1, 25, 43, 0.116);
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-inline: 10px;
+}
+
+/*Hero section styles*/
+
+.hero{
+    background: url(travel.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.heroMainText{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 100%;
+    padding: 30vh 0px 0px 10vw;
+}
+
+.heroSecondText{
+    font-size: 0.9rem;
+    width: 400px;
+    margin: 5vh 0 0 10vw;
+}
+
+/*Social media icon styling*/
+
+.socialMedia{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 60vh;
+    margin-left: 2vw;
+}
+
+.socialMedia img{
+    aspect-ratio: 1/1;
+    width: 30px;
+    margin-bottom: 15px;
+}
+
+/*About us body styling*/
+
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.text h1{
+    padding: 20vh 0 0 10vw;
+}
+
+.text p{
+    margin: 2vh 5vw 0vh 10vw;
+}
+
+.team{
+    margin: 5vh 5vw 5vh 10vw;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(1, 25, 43, 0.116);
+    border-radius: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.team h2{
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+.card{
+    margin-inline: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: min(100%, 175px);
+}
+
+.card img{
+    aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 200px;
+}
+
+.title{
+    background-color: rgb(144, 144, 255);
+    padding: 5px;
+    border-radius: 100px;
+    margin-top: 1vh;
+    text-align: center;
+    width: 100%;
+}
+
+#lastCard{
+    margin-right: 0px;
+}
+
+/*Contact Us styling*/
+
+.body{
+    display: flex;
+    flex-direction: row;
+    padding: 30vh 6vw 0 10vw;
+}
+
+#form{
+    background: rgba(1, 25, 43, 0.116);
+    width: 100%;
+    margin-left: 3vw;
+    padding: 20px;
+    border-radius: 20px;
+    height: 50%;
+}
+
+.body input, textarea{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.125);
+    border: 0.5px solid rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+textarea{
+    height: 30vh;
+}
+
+input[type=submit]{
+    background-color: rgb(0, 168, 168);
+    border: 0;
+}
+
+label{
+    margin-bottom: 1vh;
+}
+
