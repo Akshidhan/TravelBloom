@@ -43,7 +43,7 @@
           },
           {
             "name": "São Paulo, Brazil",
-            "imageUrl": "saoPauliopaulo.jpg",
+            "imageUrl": "saoPaulo.jpg",
             "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
           }
         ]
@@ -59,7 +59,7 @@
       {
         "id": 2,
         "name": "Taj Mahal, India",
-        "imageUrl": "taj-mahal.jpg",
+        "imageUrl": "taj.jpg",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
       }
     ],
@@ -78,4 +78,3 @@
       }
     ]
   }
-  
